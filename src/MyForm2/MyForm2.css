@@ -1,0 +1,95 @@
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .RM{
+    
+    font-size: 15px;
+    float:left;
+    color: #c34314d7;
+    font-weight: 900;
+  }
+  .clear{ 
+    font-size: 15px;
+  width: 15%;
+  float: right;
+  border: none;
+  color: #c34314d7;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 900;
+  }
+
+  .clear:hover{
+    color:#da3a00fd;
+  }
+
+
+  .submit {
+    max-width: 20vh;
+    width: 11vh;
+    padding: 10px;
+    display: flex;
+    border: 2px solid #393737;
+    color: #c34314d7;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 900;
+    margin-top:60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: transparent;
+    font-weight: 900;
+    font-size: 20px;
+}
+  .submit:hover {
+    color:#000000d7;
+    background-color: #a3a3a3;
+    
+  }
+
+.create{
+  cursor:pointer;
+  background: transparent;
+  display: flex;
+  font-weight: 900;
+  border: 2px solid #393737;
+  margin-top: 20px;
+  margin-left: auto;
+    margin-right: auto;
+    color:#c34314d7;
+    border-radius: 10px;
+}
+
+.create:hover{
+  color:#000000d7;
+    background-color: #a3a3a3;
+  
+}
+
+
+form input[type="checkbox"] {
+  margin-bottom: 20px;
+
+}
