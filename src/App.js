@@ -1,12 +1,12 @@
 import "./App.css";
-import MyForm from "./MyForm/MyForm.js";
-import MyForm2 from "./MyForm2/MyForm2.js";
+// import LoginForm from "./pages/LoginForm/LoginForm.jsx";
+import SignUp from "./pages/SignupForm/SignUp.jsx";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <MyForm />
+        <SignUp />
       </header>
     </div>
   );

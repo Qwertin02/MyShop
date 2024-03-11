@@ -63,6 +63,25 @@ form {
     font-weight: 900;
     font-size: 20px;
 }
+
+.signup {
+  max-width: 20vh;
+  width: 12vh;
+  padding: 10px;
+  display: flex;
+  border: 2px solid #393737;
+  color: #c34314d7;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 900;
+  margin-top:60px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: transparent;
+  font-weight: 900;
+  font-size: 20px;
+}
   .submit:hover {
     color:#000000d7;
     background-color: #a3a3a3;
